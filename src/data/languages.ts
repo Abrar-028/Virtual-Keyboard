@@ -1,0 +1,28 @@
+import { KeyboardLayout } from '@/types/keyboard';
+
+export const languages = [
+  { code: 'en', name: 'English', flag: '🇬🇧', dir: 'ltr' },
+  { code: 'ar', name: 'Arabic', flag: '🇸🇦', dir: 'rtl' },
+  { code: 'he', name: 'Hebrew', flag: '🇮🇱', dir: 'rtl' },
+  { code: 'fa', name: 'Persian', flag: '🇮🇷', dir: 'rtl' },
+  { code: 'ur', name: 'Urdu', flag: '🇵🇰', dir: 'rtl' },
+  { code: 'es', name: 'Spanish', flag: '🇪🇸', dir: 'ltr' },
+  { code: 'fr', name: 'French', flag: '🇫🇷', dir: 'ltr' },
+  { code: 'de', name: 'German', flag: '🇩🇪', dir: 'ltr' },
+  { code: 'ru', name: 'Russian', flag: '🇷🇺', dir: 'ltr' },
+  { code: 'it', name: 'Italian', flag: '🇮🇹', dir: 'ltr' },
+  { code: 'pt', name: 'Portuguese', flag: '🇵🇹', dir: 'ltr' },
+  { code: 'pl', name: 'Polish', flag: '🇵🇱', dir: 'ltr' },
+  { code: 'tr', name: 'Turkish', flag: '🇹🇷', dir: 'ltr' },
+  { code: 'nl', name: 'Dutch', flag: '🇳🇱', dir: 'ltr' },
+  { code: 'cs', name: 'Czech', flag: '🇨🇿', dir: 'ltr' },
+  { code: 'sv', name: 'Swedish', flag: '🇸🇪', dir: 'ltr' },
+  { code: 'hu', name: 'Hungarian', flag: '🇭🇺', dir: 'ltr' },
+  { code: 'el', name: 'Greek', flag: '🇬🇷', dir: 'ltr' },
+  { code: 'da', name: 'Danish', flag: '🇩🇰', dir: 'ltr' },
+  { code: 'fi', name: 'Finnish', flag: '🇫🇮', dir: 'ltr' },
+  { code: 'no', name: 'Norwegian', flag: '🇳🇴', dir: 'ltr' },
+  { code: 'ro', name: 'Romanian', flag: '🇷🇴', dir: 'ltr' },
+  { code: 'hr', name: 'Croatian', flag: '🇭🇷', dir: 'ltr' },
+  { code: 'sk', name: 'Slovak', flag: '🇸🇰', dir: 'ltr' },
+] as const;
